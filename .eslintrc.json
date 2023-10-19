@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "otra-regla-para-deshabilitar": "off"
+    // Otras reglas específicas para tu proyecto
+  }
 }

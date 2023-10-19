@@ -51,7 +51,7 @@ export default function LoginPage() {
             />
             <button className="primary">Login</button>
             <div className="text-center py-2 text-gray-500">
-              Don't have an account yet?{' '}
+              Don&apos;t have an account yet?{' '}
               <Link href="/registerPage" className="underline text-black">
                 Register now
               </Link>
@@ -63,4 +63,3 @@ export default function LoginPage() {
     </div>
   );
 }
-
